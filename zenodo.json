@@ -5,11 +5,13 @@
   "creators": [
     {
       "name": "Budhathoki, Dipesh",
-      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China",
+       "orcid": "0009-0004-1544-2108"
     },
     {
       "name": "Qiu, Shican",
-      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China",
+       "orcid": "0000-0001-7936-7574"
     }
   ],
   "version": "1.0.0",
@@ -26,5 +28,12 @@
     "Hall current",
     "guide-field reconnection",
     "tripolar Hall field"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dipsbc/MMS-Tripolar-Hall-Field-20160122",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
   ]
 }
