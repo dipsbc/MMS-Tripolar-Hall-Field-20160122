@@ -27,8 +27,6 @@ GRL_MMS_tripolar_data_system/
 ├── LICENSE-CODE
 ├── LICENSE-DATA
 ├── environment.yml
-├── config/
-│   └── mms_products.yaml
 ├── metadata/
 │   ├── event_parameters.yaml
 │   ├── raw_data_manifest.csv
