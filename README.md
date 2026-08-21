@@ -70,7 +70,7 @@ are provided in:
   machine-readable source manifest.
 
 The event date is 22 January 2016; therefore, the relevant SPDF directories use
-`2016/01/`, not `2017/01/`.
+`2016/01/`.
 
 ## Derived data and figures
 
