@@ -1,0 +1,22 @@
+spacecraft,instrument,product,level,mode,start_time_utc,filename,version,source_archive,used_in_study,notes
+mms1,EDP,dce,L2,brst,2016-01-22T07:17:14Z,mms1_edp_brst_l2_dce_20160122071714_v2.2.0.cdf,v2.2.0,MMS_SDC,yes,DC electric field
+mms1,EDP,dce,L2,brst,2016-01-22T07:20:24Z,mms1_edp_brst_l2_dce_20160122072024_v2.2.0.cdf,v2.2.0,MMS_SDC,verify,Adjacent burst segment
+mms1,FGM,magnetic-field,L2,brst,2016-01-22T07:17:14Z,mms1_fgm_brst_l2_20160122071714_v4.18.0.cdf,v4.18.0,MMS_SDC,yes,Burst magnetic field
+mms1,FGM,magnetic-field,L2,brst,2016-01-22T07:20:24Z,mms1_fgm_brst_l2_20160122072024_v4.18.0.cdf,v4.18.0,MMS_SDC,verify,Adjacent burst segment
+mms1,FPI-DES,distribution,L2,brst,2016-01-22T07:17:14Z,mms1_fpi_brst_l2_des-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,verify,Electron distributions
+mms1,FPI-DES,moments,L2,brst,2016-01-22T07:17:14Z,mms1_fpi_brst_l2_des-moms_20160122071714_v3.3.0.cdf,v3.3.0,MMS_SDC,yes,Electron moments
+mms1,FPI-DES,moments,L2,brst,2016-01-22T07:20:24Z,mms1_fpi_brst_l2_des-moms_20160122072024_v3.3.0.cdf,v3.3.0,MMS_SDC,verify,Adjacent burst segment
+mms1,FPI-DIS,distribution,L2,brst,2016-01-22T07:17:14Z,mms1_fpi_brst_l2_dis-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,yes,Ion distributions
+mms1,FPI-DIS,moments,L2,brst,2016-01-22T07:17:14Z,mms1_fpi_brst_l2_dis-moms_20160122071714_v3.3.0.cdf,v3.3.0,MMS_SDC,yes,Ion moments
+mms1,FPI-DIS,moments,L2,brst,2016-01-22T07:20:24Z,mms1_fpi_brst_l2_dis-moms_20160122072024_v3.3.0.cdf,v3.3.0,MMS_SDC,verify,Adjacent burst segment
+mms2,EDP,dce,L2,brst,2016-01-22T07:17:14Z,mms2_edp_brst_l2_dce_20160122071714_v2.2.0.cdf,v2.2.0,MMS_SDC,yes,DC electric field
+mms2,FGM,magnetic-field,L2,brst,2016-01-22T07:17:14Z,mms2_fgm_brst_l2_20160122071714_v4.18.0.cdf,v4.18.0,MMS_SDC,yes,Burst magnetic field
+mms2,FPI-DES,distribution,L2,brst,2016-01-22T07:17:14Z,mms2_fpi_brst_l2_des-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,verify,Electron distributions
+mms2,FPI-DES,moments,L2,brst,2016-01-22T07:17:14Z,mms2_fpi_brst_l2_des-moms_20160122071714_v3.3.0.cdf,v3.3.0,MMS_SDC,yes,Electron moments
+mms2,FPI-DIS,distribution,L2,brst,2016-01-22T07:17:14Z,mms2_fpi_brst_l2_dis-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,yes,Ion distributions
+mms2,FPI-DIS,moments,L2,brst,2016-01-22T07:17:14Z,mms2_fpi_brst_l2_dis-moms_20160122071714_v3.3.0.cdf,v3.3.0,MMS_SDC,yes,Ion moments
+mms3,EDP,dce,L2,brst,2016-01-22T07:17:14Z,mms3_edp_brst_l2_dce_20160122071714_v2.2.0.cdf,v2.2.0,MMS_SDC,yes,DC electric field
+mms3,FGM,magnetic-field,L2,brst,2016-01-22T07:17:14Z,mms3_fgm_brst_l2_20160122071714_v4.18.0.cdf,v4.18.0,MMS_SDC,yes,Burst magnetic field
+mms3,FPI-DES,distribution,L2,brst,2016-01-22T07:17:14Z,mms3_fpi_brst_l2_des-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,verify,Electron distributions
+mms3,FPI-DES,moments,L2,brst,2016-01-22T07:17:14Z,mms3_fpi_brst_l2_des-moms_20160122071714_v3.3.0.cdf,v3.3.0,MMS_SDC,yes,Electron moments
+mms3,FPI-DIS,distribution,L2,brst,2016-01-22T07:17:14Z,mms3_fpi_brst_l2_dis-dist_20160122071714_v3.4.0.cdf,v3.4.0,MMS_SDC,yes,Ion distributions
