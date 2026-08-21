@@ -1,0 +1,30 @@
+{
+  "title": "MMS Tripolar Hall-Field Event of 22 January 2016: Data and Analysis Software",
+  "upload_type": "software",
+  "description": "Analysis software, derived numerical data, metadata, and figure-production materials supporting a study of a tripolar Hall electromagnetic structure observed by the Magnetospheric Multiscale mission during strong-guide-field reconnection at Earth's dayside magnetopause. The principal event interval is 07:18:44-07:18:53 UT on 22 January 2016. Original Level-2 MMS data remain available from NASA SPDF; exact filenames, versions, and direct source links are supplied in the repository metadata. Analysis code is licensed under the MIT License; derived data and documentation are licensed under CC BY 4.0 as specified by the license files included in the archive.",
+  "creators": [
+    {
+      "name": "Budhathoki, Dipesh",
+      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+    },
+    {
+      "name": "Qiu, Shican",
+      "affiliation": "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "Magnetospheric Multiscale",
+    "MMS",
+    "magnetic reconnection",
+    "dayside magnetopause",
+    "Hall magnetic field",
+    "Hall electric field",
+    "Hall current",
+    "guide-field reconnection",
+    "tripolar Hall field"
+  ]
+}
