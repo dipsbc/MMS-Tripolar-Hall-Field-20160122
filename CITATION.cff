@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived Zenodo release."
+title: "MMS Tripolar Hall-Field Event of 22 January 2016: Data and Analysis Software"
+type: software
+authors:
+  - family-names: "Budhathoki"
+    given-names: "Dipesh"
+    affiliation: "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+  - family-names: "Qiu"
+    given-names: "Shican"
+    affiliation: "Department of Geophysics, College of Geology Engineering and Geomatics, Chang'an University, Xi'an, China"
+version: 1.0.0
+repository-code: "https://github.com/dipsbc/MMS-Tripolar-Hall-Field-20160122"
+license: MIT
+abstract: >-
+  Analysis software, derived numerical data, metadata, and figure-production
+  materials supporting a study of a tripolar Hall electromagnetic structure
+  observed by MMS during strong-guide-field reconnection at Earth's dayside
+  magnetopause on 22 January 2016.
+keywords:
+  - Magnetospheric Multiscale
+  - MMS
+  - magnetic reconnection
+  - dayside magnetopause
+  - Hall magnetic field
+  - Hall electric field
+  - Hall current
+  - guide-field reconnection
+  - tripolar Hall field
