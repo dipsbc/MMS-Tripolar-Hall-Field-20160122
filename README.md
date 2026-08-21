@@ -6,22 +6,22 @@ Multiscale (MMS) mission during strong-guide-field reconnection at Earth's
 dayside magnetopause.
 
 The repository accompanies the GRL manuscript provisionally titled
-**â€œSingle-X-Line Tripolar Hall Electromagnetic Perturbations During
-Strong-Guide-Field Reconnection.â€**
+**“Single-X-Line Tripolar Hall Electromagnetic Perturbations During
+Strong-Guide-Field Reconnection.”**
 
 ## Event summary
 
 - **Date:** 22 January 2016
-- **Principal interval:** 07:18:44â€“07:18:53 UT
-- **Coordinate-analysis interval:** 07:18:36.860â€“07:19:00.920 UT
-- **Spacecraft:** MMS1â€“MMS4
+- **Principal interval:** 07:18:44–07:18:53 UT
+- **Coordinate-analysis interval:** 07:18:36.860–07:19:00.920 UT
+- **Spacecraft:** MMS1–MMS4
 - **Primary spacecraft:** MMS4
 - **Instruments:** FGM, EDP, FPI/DIS, FPI/DES, and MEC
 - **Coordinate system:** LMN transformed from GSE
 - **Representative guide field:** approximately 35 nT
 - **Hall perturbation:** \(B'_M=B_M-B_g\)
 
-The event contains a positiveâ€“negativeâ€“positive sequence in \(B'_M\), together
+The event contains a positive–negative–positive sequence in \(B'_M\), together
 with structured normal electric fields and multilayer Hall currents across an
 ion-scale reconnection exhaust.
 
@@ -29,31 +29,31 @@ ion-scale reconnection exhaust.
 
 ```text
 MMS-Tripolar-Hall-Field-20160122/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ DATA_AVAILABILITY.md
-â”œâ”€â”€ RELEASE_CHECKLIST.md
-â”œâ”€â”€ LICENSE-CODE
-â”œâ”€â”€ LICENSE-DATA
-â”œâ”€â”€ environment.yml
-â”œâ”€â”€ config/
-â”‚   â””â”€â”€ mms_products.yaml
-â”œâ”€â”€ data/
-â”‚   â””â”€â”€ derived/
-â”‚       â”œâ”€â”€ 20160122071714_all_mms_plot_data.xlsx
-â”‚       â”œâ”€â”€ 20160122071714_event_times.csv
-â”‚       â”œâ”€â”€ lmn_values.csv
-â”‚       â”œâ”€â”€ mms4_LMN.xlsx
-â”‚       â””â”€â”€ ohms_terms_mms4.xlsx
-â”œâ”€â”€ figures/
-â”‚   â””â”€â”€ manuscript and supporting PDF figures
-â”œâ”€â”€ metadata/
-â”‚   â”œâ”€â”€ MMS_source_files.csv
-â”‚   â”œâ”€â”€ MMS_source_files.md
-â”‚   â”œâ”€â”€ derived_data_manifest.csv
-â”‚   â”œâ”€â”€ event_parameters.yaml
-â”‚   â””â”€â”€ raw_data_manifest.csv
-â””â”€â”€ notebooks/
-    â””â”€â”€ 20160122071714.ipynb
+├── README.md
+├── DATA_AVAILABILITY.md
+├── RELEASE_CHECKLIST.md
+├── LICENSE-CODE
+├── LICENSE-DATA
+├── environment.yml
+├── config/
+│   └── mms_products.yaml
+├── data/
+│   └── derived/
+│       ├── 20160122071714_all_mms_plot_data.xlsx
+│       ├── 20160122071714_event_times.csv
+│       ├── lmn_values.csv
+│       ├── mms4_LMN.xlsx
+│       └── ohms_terms_mms4.xlsx
+├── figures/
+│   └── manuscript and supporting PDF figures
+├── metadata/
+│   ├── MMS_source_files.csv
+│   ├── MMS_source_files.md
+│   ├── derived_data_manifest.csv
+│   ├── event_parameters.yaml
+│   └── raw_data_manifest.csv
+└── notebooks/
+    └── 20160122071714.ipynb
 ```
 
 ## Source MMS data
@@ -61,7 +61,7 @@ MMS-Tripolar-Hall-Field-20160122/
 The original Level-2 MMS CDF files were obtained from the
 [NASA Space Physics Data Facility (SPDF)](https://spdf.gsfc.nasa.gov/pub/data/mms/).
 They are not intended to be duplicated in this repository. Exact filenames,
-versions, product directories, and direct SPDF download links for MMS1â€“MMS4
+versions, product directories, and direct SPDF download links for MMS1–MMS4
 are provided in:
 
 - [`metadata/MMS_source_files.md`](metadata/MMS_source_files.md): clickable,
@@ -90,12 +90,12 @@ The adopted coordinate and timing results are recorded in
 [`metadata/event_parameters.yaml`](metadata/event_parameters.yaml). The main
 parameters include:
 
-- MVA eigenvalues: 1281.045, 106.188, and 4.960 nTÂ²
+- MVA eigenvalues: 1281.045, 106.188, and 4.960 nT²
 - Eigenvalue ratios: 12.064 and 21.410
 - Mean interspacecraft separation: 18.8 km
 - Tetrahedron quality factor: 0.80
-- Timing normal speed: âˆ’46.8 km sâ»Â¹
-- Angle between timing and MVA normals: 4.8Â°
+- Timing normal speed: −46.8 km s⁻¹
+- Angle between timing and MVA normals: 4.8°
 
 The sign of the timing speed must be interpreted consistently with the adopted
 LMN convention when converting temporal derivatives to spatial gradients.
