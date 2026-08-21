@@ -1,0 +1,14 @@
+# Original MMS mission files remain at NASA SPDF
+*.cdf
+Data/
+data/raw/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Operating-system files
+.DS_Store
+Thumbs.db
