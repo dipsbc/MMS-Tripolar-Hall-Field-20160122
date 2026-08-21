@@ -1,0 +1,10 @@
+figure_id,planned_file,format,primary_variables,units,coordinate_system,status
+Figure_1_overview,data/derived/figure1_overview_mms4.nc,NetCDF,"B_L;B_M;B_M_prime;B_N;n_i;n_e;T_i;V_i;V_e;ExB;J_L;J_M;E_L;E_M;E_N",variable_attributes,LMN,TBD
+Figure_1_VDF,data/derived/figure1_ion_vdf_mms4.nc,NetCDF,"f_i;V_L;V_N;snapshot_time",variable_attributes,LMN,TBD
+Figure_2_relations,data/derived/figure2_relations_mms4.csv,CSV,"B_L;B_M_prime;V_iL;E_N;region",header_units,LMN,TBD
+Figure_S1_geometry,data/derived/figureS1_geometry.csv,CSV,"R_GSE;relative_positions;quality_factor",header_units,GSE,TBD
+Figure_S2_hodograms,data/derived/figureS2_hodograms_all_mms.csv,CSV,"spacecraft;B_L;B_M_prime;region",header_units,LMN,TBD
+Figure_S3_multispacecraft,data/derived/figureS3_fields_currents_all_mms.nc,NetCDF,"B_M;B_M_prime;J_L;E_N",variable_attributes,LMN,TBD
+Figure_S4_ohms_law,data/derived/figureS4_ohms_terms_all_mms.nc,NetCDF,"E_N;Ohm_terms",variable_attributes,LMN,TBD
+MVA_timing,data/derived/mva_timing_parameters.csv,CSV,"eigenvalues;eigenvectors;timing_normal;normal_speed",header_units,GSE_LMN,TBD
+

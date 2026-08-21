@@ -1,0 +1,8 @@
+logical_id,source_archive,spacecraft,instrument,level,mode,descriptor,date,exact_filename,version,bytes,sha256,used,purpose
+fgm_brst_l2,MMS_SDC,mms1-mms4,FGM,L2,burst,magnetic_field,2016-01-22,TBD,TBD,TBD,TBD,TBD,magnetic fields and gradients
+edp_brst_l2,MMS_SDC,mms1-mms4,EDP,L2,burst,dc_electric_field,2016-01-22,TBD,TBD,TBD,TBD,TBD,electric fields
+fpi_dis_moms,MMS_SDC,mms1-mms4,FPI-DIS,L2,burst,moments,2016-01-22,TBD,TBD,TBD,TBD,TBD,ion moments and pressure
+fpi_des_moms,MMS_SDC,mms1-mms4,FPI-DES,L2,burst,moments,2016-01-22,TBD,TBD,TBD,TBD,TBD,electron moments and pressure
+fpi_dis_dist,MMS_SDC,mms4,FPI-DIS,L2,burst,distribution,2016-01-22,TBD,TBD,TBD,TBD,TBD,ion velocity distributions
+mec_ephemeris,MMS_SDC,mms1-mms4,MEC,L2,survey,epht89d,2016-01-22,TBD,TBD,TBD,TBD,TBD,position and tetrahedron
+

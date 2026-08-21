@@ -1,0 +1,48 @@
+archive:
+  base_url: "https://lasp.colorado.edu/mms/sdc/public/files/api/v1"
+  start_date: "2016-01-22"
+  end_date: "2016-01-23"
+  spacecraft: [mms1, mms2, mms3, mms4]
+
+analysis_intervals:
+  main_utc: ["2016-01-22T07:18:44Z", "2016-01-22T07:18:53Z"]
+  coordinate_utc: ["2016-01-22T07:18:36.860Z", "2016-01-22T07:19:00.920Z"]
+
+products:
+  - id: fgm_brst_l2
+    instrument_id: fgm
+    data_rate_mode: brst
+    data_level: l2
+    filename_contains: "_fgm_brst_l2_"
+    purpose: "LMN magnetic fields, magnitude, curlometer gradients"
+  - id: edp_brst_l2_dce
+    instrument_id: edp
+    data_rate_mode: brst
+    data_level: l2
+    filename_contains: "_edp_brst_l2_dce_"
+    purpose: "DC electric field"
+  - id: fpi_dis_brst_l2_moms
+    instrument_id: fpi
+    data_rate_mode: brst
+    data_level: l2
+    filename_contains: "_fpi_brst_l2_dis-moms_"
+    purpose: "ion moments and pressure tensor"
+  - id: fpi_des_brst_l2_moms
+    instrument_id: fpi
+    data_rate_mode: brst
+    data_level: l2
+    filename_contains: "_fpi_brst_l2_des-moms_"
+    purpose: "electron moments and pressure tensor"
+  - id: fpi_dis_brst_l2_dist
+    instrument_id: fpi
+    data_rate_mode: brst
+    data_level: l2
+    filename_contains: "_fpi_brst_l2_dis-dist_"
+    purpose: "ion velocity distributions"
+  - id: mec_srvy_l2_epht89d
+    instrument_id: mec
+    data_rate_mode: srvy
+    data_level: l2
+    filename_contains: "_mec_srvy_l2_epht89d_"
+    purpose: "spacecraft position and tetrahedron geometry"
+
