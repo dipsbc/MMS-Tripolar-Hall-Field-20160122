@@ -54,6 +54,7 @@ MMS-Tripolar-Hall-Field-20160122/
 │   └── raw_data_manifest.csv
 └── notebooks/
     └── 20160122071714.ipynb
+    └── 20160122071714_latest.ipynb
 ```
 
 ## Source MMS data
